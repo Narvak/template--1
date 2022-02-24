@@ -1,0 +1,169 @@
+body {
+    background: black;
+    color: white;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+    body:hover {
+        background: #255075;
+        color: whitesmoke;
+    }
+
+a {
+    background: transparent;
+    color: whitesmoke;
+}
+    a:hover {
+        background: whitesmoke;
+        color: #255075;
+    }
+
+header, footer {
+    background: rgb(75, 25, 25);
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+    header {
+        width: 100%;
+        height: 250px;
+        background-image: url(media/images/header.png);
+        bottom: 100;
+    }
+    footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+        footer:hover {
+            background: rgb(25, 50, 75);
+            color: whitesmoke;
+        }
+    nav {
+        background: rgb(75, 25, 25);
+        color: white;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+        position: relative;
+        bottom: 0;
+    }
+        nav:hover {
+            background: rgb(25, 50, 75);
+            color: whitesmoke;
+        }
+    .navleft {
+        background: rgb(75, 25, 25);
+        color: white;
+        width: auto;
+        height: auto;
+        border-radius: 10px 10px 10px 10px;
+        border-color: rgb(75, 25, 25);
+        float: left;
+        cursor: pointer;
+    }
+        .navleft:hover {
+            background: rgb(0, 0, 0);
+            border: rgb(0, 0, 0);
+        }
+    .navright {
+        background: greenyellow;
+        color: black;
+        width: auto;
+        height: auto;
+        border-radius: 10px 10px 10px 10px;
+        border-color: greenyellow;
+        float: right;
+        cursor: pointer;
+    }
+        .navright:hover {
+            background: green;
+            border-color: green;
+        }
+
+#gen {
+    background: transparent;
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+    #gen:hover {
+        background: rgb(25, 50, 75);
+        color: whitesmoke;
+    }
+
+#about, #news {
+    background: red;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+    #about:hover {
+        background: #ff0025;
+        color: whitesmoke;
+    }
+    #news:hover {
+        background: #ff0025;
+        color: whitesmoke;
+    }
+
+#feature1 {
+    background: red;
+    color: white;
+    width: 610px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+}
+    #feature1:hover {
+        background: #ff0025;
+        color: whitesmoke;
+    }
+
+#feature2 {
+    background: red;
+    color: white;
+    width: 610px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+}
+    #feature2:hover {
+        background: #ff0025;
+        color: whitesmoke;
+    }
+
+#feature3 {
+    background: red;
+    color: white;
+    width: 610px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+}
+    #feature3:hover {
+        background: #ff0025;
+        color: whitesmoke;
+    }
+
+#easteregg {
+    background: transparent;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+    #easteregg:hover {
+        background: rgb(25, 50, 75);
+        color: whitesmoke;
+    }
+    .easteregg {
+        background: rgb(25, 50, 75);
+        color: green;
+        border-radius: 10px 10px 10px 10px;
+        border-color: green;
+    }
+        .easteregg:hover {
+            background: green;
+            color: rgb(25, 50, 75);
+            border-color: rgb(25, 50, 75);
+        }
