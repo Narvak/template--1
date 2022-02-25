@@ -15,3 +15,8 @@ function img_header() {
         });
     });
 }
+
+function html() {
+    alert(Bienvenue);
+    document.getElementById("msg_img_header").innerHTML = "Bienvenue";
+}
