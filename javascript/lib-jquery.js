@@ -43,8 +43,44 @@ function easteregg() {
 function show() {
     $(document).ready(function(){
         $("button").click(function(){
-            $("#about").hide();
-            $("#easteregg").show()
+            $("#easteregg").hide();
+            $("#news").show()
+            $("#about").show()
+            $("#feature").show()
+                $("#feature1").show()
+                $("#feature1").show()
+                $("#feature3").show()
+            $("#gen").show()
+        });
+    });
+}
+function show_all() {
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#easteregg").show();
+            $("#news").show()
+            $("#about").show()
+            $("#feature").show()
+                $("#feature1").show()
+                $("#feature1").show()
+                $("#feature3").show()
+            $("#gen").show()
+            $("*").show()
+        });
+    });
+}
+function hide_all() {
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#easteregg").hide();
+            $("#news").hide()
+            $("#about").hide()
+            $("#feature").hide()
+                $("#feature1").hide()
+                $("#feature1").hide()
+                $("#feature3").hide()
+            $("#gen").hide()
+            $("*").hide()
         });
     });
 }
