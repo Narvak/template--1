@@ -4,7 +4,14 @@ function dmode() {
 }
 
 function img_header() {
-    var element = document.header;
-    element.classList.toggle("images");
-        function alert(message?: any): void
+    $(document).ready(function(){
+        $("img").click(function(){
+            $("#news").hide();
+            $("#about").hide();
+            $("#feature").hide();
+            $("#gen").hide();
+            $("#easteregg").hide()
+            $("#msg_img_header").show()
+        });
+    });
 }

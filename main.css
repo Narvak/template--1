@@ -165,3 +165,17 @@ header, footer {
             color: rgb(25, 50, 75);
             border-color: rgb(25, 50, 75);
         }
+
+
+
+
+
+
+
+#msg_img_header {
+    background: red;
+    color: black;
+    text-align: center;
+        text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px;
+}
